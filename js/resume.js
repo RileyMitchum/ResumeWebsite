@@ -31,7 +31,18 @@
 
 $(document).ready(function(){
 	$('.nav-link').click(function(){
-		  // $(this).fadeOut();
+		//$(this).fadeOut();
 	}); 
+	
+	$('.fa-stack').hover(
+	function(){
+		$(this).addClass('bounce');
+	},
+	function(){
+		$(this).removeClass('bounce');
+	}); 
+});
+
+$(document).ready(function(){
 
 });
